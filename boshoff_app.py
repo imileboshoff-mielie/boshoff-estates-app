@@ -183,4 +183,6 @@ with tab_proposal:
 **Prepared by Boshoff Estates** – Contact for viewing or full due diligence.
 """
         st.markdown(proposal_text)
-        st.download_button
+        st.download_button("Download .txt (ready for PDF)", proposal_text, file_name=f"Boshoff_Proposal_{prop_name}.txt")
+
+st.caption("✅ Fully national • Search any SA area • All graphs & calculators included • Update your GitHub and your live link will refresh automatically!")
